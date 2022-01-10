@@ -12,3 +12,6 @@
 1. 刷新缓冲区：fflush
 2. 缓冲区已满
 3. 正常关闭文件 a.fclose b.return(main函数) c.exit(main函数)
+
+## 标准C库IO和Linux系统IO的关系
+C标准I/O库内含有I/O缓存区，比LinuxIO的直接读写更高效。
